@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a7aad864eaaa6564a9040ec54dd9bd3e
+guid: 574e7165c5fd581438459fa28beb41d4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spr_walking_strip8_0
+      name: spr_idle_strip9_0
       rect:
         serializedVersion: 2
         x: 0
@@ -119,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be933a8fc3f0e614da68b83dadef5f54
-      internalID: -15624568
+      spriteID: 60bf8470871b37f4c9bc2c95715c6c03
+      internalID: 1859194541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_walking_strip8_1
+      name: spr_idle_strip9_1
       rect:
         serializedVersion: 2
         x: 96
@@ -140,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4526fcc677426864e811f3f5cf6a60f6
-      internalID: 1374973369
+      spriteID: 62a2d7c3e65f09d4b8b73f067312d307
+      internalID: -66449352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_walking_strip8_2
+      name: spr_idle_strip9_2
       rect:
         serializedVersion: 2
         x: 192
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2df4977eadf7b744d889747660443bf9
-      internalID: -2078999905
+      spriteID: feda5408b8595b54b8b1cfd43cd66054
+      internalID: 374793188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_walking_strip8_3
+      name: spr_idle_strip9_3
       rect:
         serializedVersion: 2
         x: 288
@@ -182,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cdd4cf70ab0576439f3a8071cbceacb
-      internalID: 104676800
+      spriteID: c2fb108b5f962e2479e570f9a7ba1a21
+      internalID: -587689792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_walking_strip8_4
+      name: spr_idle_strip9_4
       rect:
         serializedVersion: 2
         x: 384
@@ -203,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 120a5529b7185b649b97c76e2320cd3a
-      internalID: 2000733705
+      spriteID: bffaa13a29a0a1d439eb3b045623fd26
+      internalID: -695003017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_walking_strip8_5
+      name: spr_idle_strip9_5
       rect:
         serializedVersion: 2
         x: 480
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 486f4a6748ee35c4bb047502cbec2a0a
-      internalID: 514281075
+      spriteID: 5a7042b7d8963dd4b88a8183a7571c27
+      internalID: 1481468017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_walking_strip8_6
+      name: spr_idle_strip9_6
       rect:
         serializedVersion: 2
         x: 576
@@ -245,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec69d40e7596eac47b0521bada9ecb05
-      internalID: -982245249
+      spriteID: 94708e9c1f4be064cb9391adab5b337f
+      internalID: 1357045778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spr_walking_strip8_7
+      name: spr_idle_strip9_7
       rect:
         serializedVersion: 2
         x: 672
@@ -266,8 +266,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa6df37d35624ff49971e72b3d438596
-      internalID: -1075631226
+      spriteID: 860d02a0f56abb840a47ff5c8d91a765
+      internalID: 363403991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_idle_strip9_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff877a8a740933408eb40dc558498a0
+      internalID: -210151705
       vertices: []
       indices: 
       edges: []
@@ -283,14 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spr_walking_strip8_4: 2000733705
-      spr_walking_strip8_2: -2078999905
-      spr_walking_strip8_7: -1075631226
-      spr_walking_strip8_3: 104676800
-      spr_walking_strip8_1: 1374973369
-      spr_walking_strip8_0: -15624568
-      spr_walking_strip8_6: -982245249
-      spr_walking_strip8_5: 514281075
+      spr_idle_strip9_1: -66449352
+      spr_idle_strip9_0: 1859194541
+      spr_idle_strip9_3: -587689792
+      spr_idle_strip9_2: 374793188
+      spr_idle_strip9_8: -210151705
+      spr_idle_strip9_7: 363403991
+      spr_idle_strip9_5: 1481468017
+      spr_idle_strip9_4: -695003017
+      spr_idle_strip9_6: 1357045778
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
