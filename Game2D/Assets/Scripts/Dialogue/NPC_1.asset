@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3304daf0e002547b86a471d14de384, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 5743265328651174251, guid: 89d631374c88c9b40a8e3d0016ac078d, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: Ruivinha
+    profile: {fileID: 0}
+    sentence:
+      portuguese: Oooi
+      english: Hiiii
+      spanish: Hoola
+  - actorName: 
+    profile: {fileID: 1859194541, guid: c7f828e911f6ab74885b579e96d0663c, type: 3}
+    sentence:
+      portuguese: Oooi
+      english: 
+      spanish: 
+  - actorName: 
+    profile: {fileID: 21300000, guid: 641130b851206254da2d8e973fe30c40, type: 3}
+    sentence:
+      portuguese: Tudo bem?
+      english: 
+      spanish: 
