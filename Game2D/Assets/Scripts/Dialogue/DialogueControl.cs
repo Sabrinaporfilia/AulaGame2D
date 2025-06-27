@@ -19,6 +19,7 @@ public class DialogueControl : MonoBehaviour
     //variaveis de controle
     private bool isShowing; // se janela esta visivel
     private int index; // index das sentenças, falas, textos
+    private string[] sentences;
 
 
 
@@ -32,5 +33,32 @@ public class DialogueControl : MonoBehaviour
     void Update()
     {
         
+    }
+
+    IEnumerator TypeSentence()
+    {
+        foreach (char letter in  sentences[index].ToCharArray())
+        {
+            speachText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+    }
+
+    //pular para proxima fala
+    public void NextSentence()
+    {
+
+    }
+
+    // chamar a fala do npc
+    public void Speech(string[] txt)
+    {
+        if (!isShowing)
+        {
+            dialogueObj.SetActive(true);
+            sentences = txt;
+            StartCoroutine(TypeSentence());
+            isShowing = true;
+        }
     }
 }
