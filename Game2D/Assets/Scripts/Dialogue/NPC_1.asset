@@ -19,18 +19,24 @@ MonoBehaviour:
   - actorName: Ruivinha
     profile: {fileID: 0}
     sentence:
-      portuguese: Oooi
+      portuguese: "Ol\xE1 Forasteiro! "
       english: Hiiii
       spanish: Hoola
-  - actorName: 
+  - actorName: Ruivinha
     profile: {fileID: 1859194541, guid: c7f828e911f6ab74885b579e96d0663c, type: 3}
     sentence:
-      portuguese: Oooi
-      english: 
-      spanish: 
-  - actorName: 
+      portuguese: "Tudo bem com voc\xEA?"
+      english: How are you?
+      spanish: Como vais amiho
+  - actorName: Ruivinha
     profile: {fileID: 21300000, guid: 641130b851206254da2d8e973fe30c40, type: 3}
     sentence:
-      portuguese: Tudo bem?
-      english: 
+      portuguese: Estou bem tambem!
+      english: I'm finee!
+      spanish: 
+  - actorName: Ruivinha
+    profile: {fileID: 0}
+    sentence:
+      portuguese: Vamos para uma aventura?
+      english: New Adventure!!
       spanish: 

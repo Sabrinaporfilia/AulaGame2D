@@ -5,10 +5,15 @@ using UnityEngine.UI;
 
 public class DialogueControl : MonoBehaviour
 {
+    [System.Serializable]
+    public enum idiom { pt,eng,spa}
+
+    public idiom language;
+
     [Header("Components")]
     public GameObject dialogueObj; // janela do dialogo
     public Image profileSprite; //sprite do perfil
-    public Text speachText; // texto da fala
+    public Text speechText; // texto da fala
     public Text actorNameText; //nome do npc
 
     [Header("Settings")]
@@ -21,7 +26,13 @@ public class DialogueControl : MonoBehaviour
     private int index; // index das sentenças, falas, textos
     private string[] sentences;
 
+    public static DialogueControl instance;
 
+    // Awake é chamado antes de todos os start() na hierarquia de execução de scripts;
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -39,7 +50,7 @@ public class DialogueControl : MonoBehaviour
     {
         foreach (char letter in  sentences[index].ToCharArray())
         {
-            speachText.text += letter;
+            speechText.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
     }
@@ -47,7 +58,24 @@ public class DialogueControl : MonoBehaviour
     //pular para proxima fala
     public void NextSentence()
     {
+        if (speechText.text == sentences[index])
+        {
+            if (index < sentences.Length - 1)
+            {
+                index++;
+                speechText.text = "";
+                StartCoroutine(TypeSentence());
+            }
+            else //quando terminam os textos
+            {
+                speechText.text = "";
+                index = 0;
+                dialogueObj.SetActive(false);
+                sentences = null;
+                isShowing = false;
 
+            }
+        }
     }
 
     // chamar a fala do npc
@@ -61,4 +89,6 @@ public class DialogueControl : MonoBehaviour
             isShowing = true;
         }
     }
+
+
 }
